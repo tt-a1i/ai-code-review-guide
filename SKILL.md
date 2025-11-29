@@ -120,7 +120,7 @@ For each file, check:
 
 ### Technique 1: The Checklist Method
 
-Use checklists for consistent reviews. See `references/security-review-guide.md` for comprehensive security checklist.
+Use checklists for consistent reviews. See [Security Review Guide](reference/security-review-guide.md) for comprehensive security checklist.
 
 ### Technique 2: The Question Approach
 
