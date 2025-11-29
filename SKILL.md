@@ -180,6 +180,7 @@ Use labels to indicate priority:
 ## Additional Resources
 
 - [Architecture Review Guide](reference/architecture-review-guide.md) - 架构设计审查指南（SOLID、反模式、耦合度）
+- [Performance Review Guide](reference/performance-review-guide.md) - 性能审查指南（Web Vitals、N+1、复杂度）
 - [Common Bugs Checklist](reference/common-bugs-checklist.md) - 按语言分类的常见错误清单
 - [Security Review Guide](reference/security-review-guide.md) - 安全审查指南
 - [Code Review Best Practices](reference/code-review-best-practices.md) - 代码审查最佳实践
