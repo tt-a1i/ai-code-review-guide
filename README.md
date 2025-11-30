@@ -30,6 +30,7 @@ This is a Claude Code skill designed to help developers conduct effective code r
 | **Vue 3** | Composition API, reactivity system, defineProps/defineEmits, watch cleanup |
 | **Rust** | Ownership & borrowing, unsafe code review, async/await, error handling (thiserror vs anyhow) |
 | **TypeScript** | Type safety, async/await patterns, common pitfalls |
+| **Go** | Error handling, goroutines/channels, context propagation, interface design, testing patterns |
 | **CSS/Less/Sass** | CSS variables, !important usage, performance optimization, responsive design, browser compatibility |
 | **TanStack Query** | v5 best practices, queryOptions, useSuspenseQuery, optimistic updates |
 | **Architecture** | SOLID principles, anti-patterns, coupling/cohesion, layered architecture |
@@ -45,11 +46,12 @@ This is a Claude Code skill designed to help developers conduct effective code r
 | **reference/rust.md** | ~840 | Rust async/ownership/cancellation safety (on-demand) |
 | **reference/typescript.md** | ~540 | TypeScript generics/strict mode/ESLint (on-demand) |
 | **reference/python.md** | ~1070 | Python async/typing/pytest (on-demand) |
+| **reference/go.md** | ~990 | Go goroutines/channels/context/interfaces (on-demand) |
 | **reference/css-less-sass.md** | ~660 | CSS/Less/Sass variables/performance/responsive (on-demand) |
 | **reference/architecture-review-guide.md** | ~470 | SOLID/anti-patterns/coupling analysis (on-demand) |
 | **reference/performance-review-guide.md** | ~750 | Core Web Vitals/N+1/memory/complexity (on-demand) |
 
-**Total: ~8,000 lines** of review guidelines and code examples, loaded on-demand per language.
+**Total: ~9,000 lines** of review guidelines and code examples, loaded on-demand per language.
 
 ### Installation
 
@@ -96,6 +98,7 @@ code-review-skill/
 │   ├── rust.md                     # Rust patterns (on-demand)
 │   ├── typescript.md               # TypeScript/JS patterns (on-demand)
 │   ├── python.md                   # Python patterns (on-demand)
+│   ├── go.md                       # Go patterns (on-demand)
 │   ├── css-less-sass.md            # CSS/Less/Sass patterns (on-demand)
 │   ├── architecture-review-guide.md # Architecture design review (on-demand)
 │   ├── performance-review-guide.md # Performance review (on-demand)
@@ -199,6 +202,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | **Vue 3** | Composition API、响应性系统、defineProps/defineEmits、watch 清理 |
 | **Rust** | 所有权与借用、unsafe 代码审查、async/await、错误处理（thiserror vs anyhow） |
 | **TypeScript** | 类型安全、async/await 模式、常见陷阱 |
+| **Go** | 错误处理、goroutine/channel、context 传播、接口设计、测试模式 |
 | **CSS/Less/Sass** | CSS 变量规范、!important 使用、性能优化、响应式设计、浏览器兼容性 |
 | **TanStack Query** | v5 最佳实践、queryOptions、useSuspenseQuery、乐观更新 |
 | **架构设计** | SOLID 原则、架构反模式、耦合度/内聚性、分层架构 |
@@ -214,11 +218,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | **reference/rust.md** | ~840 | Rust async/所有权/取消安全性（按需加载）|
 | **reference/typescript.md** | ~540 | TypeScript 泛型/strict 模式/ESLint（按需加载）|
 | **reference/python.md** | ~1070 | Python async/类型注解/pytest（按需加载）|
+| **reference/go.md** | ~990 | Go goroutine/channel/context/接口（按需加载）|
 | **reference/css-less-sass.md** | ~660 | CSS/Less/Sass 变量/性能/响应式（按需加载）|
 | **reference/architecture-review-guide.md** | ~470 | SOLID/反模式/耦合度分析（按需加载）|
 | **reference/performance-review-guide.md** | ~750 | Core Web Vitals/N+1/内存/复杂度（按需加载）|
 
-**总计：8,000 行**审查指南和代码示例，按语言按需加载。
+**总计：9,000 行**审查指南和代码示例，按语言按需加载。
 
 ### 安装
 
@@ -265,6 +270,7 @@ code-review-skill/
 │   ├── rust.md                     # Rust 模式（按需加载）
 │   ├── typescript.md               # TypeScript/JS 模式（按需加载）
 │   ├── python.md                   # Python 模式（按需加载）
+│   ├── go.md                       # Go 模式（按需加载）
 │   ├── css-less-sass.md            # CSS/Less/Sass 模式（按需加载）
 │   ├── architecture-review-guide.md # 架构设计审查（按需加载）
 │   ├── performance-review-guide.md # 性能审查（按需加载）
