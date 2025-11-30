@@ -158,7 +158,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 #### Areas for Contribution
 
-- Additional language support (Go, Java, C++, etc.)
+- Additional language support (Java, C++, Swift, etc.)
 - More framework-specific patterns
 - Translations to other languages
 - Bug pattern submissions
@@ -330,7 +330,7 @@ code-review-skill/
 
 #### 可贡献的方向
 
-- 添加更多语言支持（Go、Java、C++ 等）
+- 添加更多语言支持（Java、C++、Swift 等）
 - 更多框架特定模式
 - 翻译成其他语言
 - 提交错误模式
